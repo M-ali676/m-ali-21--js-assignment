@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="post-box">
+            <div class="user-section">
+                <img src="https://i.pravatar.cc/50" alt="Profile" class="avatar"/>
+                <textarea id="post-input" placeholder="What's on your mind, M Ali?"></textarea>
+            </div>
+            <div class="post-action">
+                <button onclick="createPost()">Post</button>
+            </div>
+        </div>
+        <div id="postsArea" class="post-feed"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
